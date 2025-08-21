@@ -1,21 +1,27 @@
-name: Aprendizaje gihub actions
+name: Aprendizaje GitHub Actions - Pull Request
+
 on:
-    push:
-      branches: [master]
+  pull_request:
+    branches: [ master ]   # o master, según tu rama principal
+
 jobs: 
-    correr-ejecutar:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
-            - name: Configurar .NET
-              uses: actions/setup-dotnet@v4
-              with:
-                dotnet-version: '9.0.x'
-            - name: Restaurar dependencias
-              run: dotnet restore
-            - name: Construir
-              run: dotnet build --no-restore --configuration Release
-            - name: Ejecutar aplicación
-              run: dotnet run --project ./ConsoleAppNETGitHubActions/ --configuration Release
-                
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configurar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'  # cambia si usas otra versión
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Construir
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Ejecutar aplicación (opcional)
+        run: dotnet run --project ./ConsoleAppNETGitHubActions/ --configuration Release
