@@ -2,7 +2,7 @@ name: Aprendizaje GitHub Actions - Pull Request
 
 on:
   push:
-    branches: [ master ]   # o master, según tu rama principal
+    branches: [ main ]   # o master, según tu rama principal
 
 jobs: 
   build-and-test:
