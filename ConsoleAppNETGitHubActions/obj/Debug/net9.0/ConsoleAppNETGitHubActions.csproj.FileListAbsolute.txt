@@ -12,3 +12,4 @@ c:\Users\JhonatanEspinoza\source\repos\ConsoleAppNETGitHubActions\ConsoleAppNETG
 c:\Users\JhonatanEspinoza\source\repos\ConsoleAppNETGitHubActions\ConsoleAppNETGitHubActions\obj\Debug\net9.0\ConsoleAppNETGitHubActions.pdb
 c:\Users\JhonatanEspinoza\source\repos\ConsoleAppNETGitHubActions\ConsoleAppNETGitHubActions\obj\Debug\net9.0\ConsoleAppNETGitHubActions.genruntimeconfig.cache
 c:\Users\JhonatanEspinoza\source\repos\ConsoleAppNETGitHubActions\ConsoleAppNETGitHubActions\obj\Debug\net9.0\ref\ConsoleAppNETGitHubActions.dll
+C:\Users\JhonatanEspinoza\source\repos\ConsoleAppNETGitHubActions\ConsoleAppNETGitHubActions\obj\Debug\net9.0\ConsoleAppNETGitHubActions.sourcelink.json

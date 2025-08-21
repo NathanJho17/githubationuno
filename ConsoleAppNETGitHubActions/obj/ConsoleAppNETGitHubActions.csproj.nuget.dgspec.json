@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj": {}
+    "C:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj": {}
   },
   "projects": {
-    "c:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj": {
+    "C:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj",
+        "projectUniqueName": "C:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj",
         "projectName": "ConsoleAppNETGitHubActions",
-        "projectPath": "c:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj",
+        "projectPath": "C:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions.csproj",
         "packagesPath": "C:\\Users\\JhonatanEspinoza\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\obj\\",
+        "outputPath": "C:\\Users\\JhonatanEspinoza\\source\\repos\\ConsoleAppNETGitHubActions\\ConsoleAppNETGitHubActions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
