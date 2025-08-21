@@ -1,0 +1,21 @@
+name: Aprendizaje gihub actions
+on:
+    push:
+      branches: [master]
+jobs: 
+    hola-mundo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Configurar .NET
+              uses: actions/setup-dotnet@v4
+              with:
+                dotnet-version: '9.0.x'
+            - name: Restaurar dependencias
+              run: dotnet restore
+            - name: Construir
+              run: dotnet build --no-restore --configuration Release
+            - name: Ejecutar aplicación
+              run: dotnet run --project ./ConsoleAppNETGitHubActions/ --configuration Release
+                
